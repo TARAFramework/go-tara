@@ -47,19 +47,10 @@ endif
 CGO_LDFLAGS=CGO_LDFLAGS="$(CDEPS_LDFLAGS)"
 GOCMD=$(CGO_LDFLAGS) $(CGO_CXXFLAGS) go build -v
 
-all: helloworld
-
-helloworld:
-	$(GOCMD) -o example-helloworld github.com/lni/dragonboat-example/helloworld
-
-multigroup:
-	$(GOCMD) -o example-multigroup github.com/lni/dragonboat-example/multigroup
-
-cpphelloworld:
-	make -C cpphelloworld
+go-tara:
+	$(GOCMD) -o go-tara github.com/cattitude/dragonboat-example/multigroup
 
 clean:
-	@make -C cpphelloworld clean
-	@rm -f example-helloworld example-multigroup
+	@rm -f go-tara
 
-.PHONY: helloworld multigroup cpphelloworld clean
+.PHONY: go-tara clean
