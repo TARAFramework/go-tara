@@ -93,8 +93,7 @@ func main() {
 	}
 	//TODO: Migrate the folder to goenv.HOME/.multigroup-data
 	datadir := filepath.Join(
-		"example-data",
-		"multigroup-data",
+		"tara-data",
 		fmt.Sprintf("node%d", *nodeID))
 	// config for the nodehost
 	// by default, insecure transport is used, you can choose to use Mutual TLS
