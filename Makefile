@@ -48,7 +48,7 @@ CGO_LDFLAGS=CGO_LDFLAGS="$(CDEPS_LDFLAGS)"
 GOCMD=$(CGO_LDFLAGS) $(CGO_CXXFLAGS) go build -v
 
 go-tara:
-	$(GOCMD) -o go-tara github.com/cattitude/dragonboat-example/multigroup
+	$(GOCMD) -o go-tara github.com/TARAFramework/go-tara
 
 clean:
 	@rm -f go-tara
