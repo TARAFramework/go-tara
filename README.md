@@ -1,5 +1,7 @@
 # go-tara
 
+[![Build Status](https://travis-ci.org/TARAFramework/go-tara.svg?branch=master)](https://travis-ci.org/TARAFramework/go-tara)
+
 Welcome to the implementation of TARA Framework in go language!  
 This reference implementation is heavy WIP.  
 Please use it with due considerations.
