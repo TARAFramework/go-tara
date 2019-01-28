@@ -16,4 +16,6 @@ before_script:
 
 script:
   # - make dragonboat-test
+  - pwd
+  - cd ${TRAVIS_HOME}/gopath/src/github.com/TARAFramework/go-tara
   - make go-tara
