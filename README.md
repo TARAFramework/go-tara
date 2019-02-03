@@ -2,6 +2,8 @@
 
 [![Join the chat at https://gitter.im/TARAFramework/go-tara](https://badges.gitter.im/TARAFramework/go-tara.svg)](https://gitter.im/TARAFramework/go-tara?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
+[![Join our ZenDesk at https://app.zenhub.com/workspaces/tara-dev-5c3e1c26ca7fa74504b9153c/boards](https://img.shields.io/badge/Shipping_faster_with-ZenHub-5e60ba.svg?style=flat-square)](https://app.zenhub.com/workspaces/tara-dev-5c3e1c26ca7fa74504b9153c/boards)
+
 Welcome to the implementation of TARA Framework in go language!  
 This reference implementation is heavy WIP.  
 Please use it with due considerations.
