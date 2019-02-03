@@ -1,0 +1,18 @@
+language: go
+go:
+  - "1.10"
+
+sudo: false
+
+before_script:
+  - go get -u -d github.com/lni/dragonboat
+  - cd $GOPATH/src/github.com/lni/dragonboat
+  - make install-rocksdb-ull
+  - go get github.com/lni/dragonboat-example/utils
+  - go get github.com/lni/dragonboat/config
+  - go get github.com/lni/dragonboat/logger
+  - go get github.com/lni/dragonboat/statemachine
+
+script:
+  - cd ${TRAVIS_HOME}/gopath/src/github.com/TARAFramework/go-tara
+  - make go-tara
