@@ -8,14 +8,11 @@ before_script:
   - go get -u -d github.com/lni/dragonboat
   - cd $GOPATH/src/github.com/lni/dragonboat
   - make install-rocksdb-ull
-  # - CGO_CFLAGS="-I/path/to/rocksdb/include" CGO_LDFLAGS="-L/path/to/rocksdb/lib -lrocksdb" go build -v pkgname
   - go get github.com/lni/dragonboat-example/utils
   - go get github.com/lni/dragonboat/config
   - go get github.com/lni/dragonboat/logger
   - go get github.com/lni/dragonboat/statemachine
 
 script:
-  # - make dragonboat-test
-  - pwd
   - cd ${TRAVIS_HOME}/gopath/src/github.com/TARAFramework/go-tara
   - make go-tara
