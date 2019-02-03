@@ -1,5 +1,7 @@
 # go-tara
 
+[![Join the chat at https://gitter.im/TARAFramework/go-tara](https://badges.gitter.im/TARAFramework/go-tara.svg)](https://gitter.im/TARAFramework/go-tara?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Welcome to the implementation of TARA Framework in go language!  
 This reference implementation is heavy WIP.  
 Please use it with due considerations.
