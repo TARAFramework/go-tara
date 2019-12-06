@@ -1,4 +1,3 @@
-[![Board Status](https://dev.azure.com/TARAFramework/bdb668a0-32f7-4c0c-b6dd-cc579da31540/d78354ad-41e0-4fe2-a8b4-83174f98d34f/_apis/work/boardbadge/89de3ecf-efac-4cf0-8a54-a4ff1eacffd1)](https://dev.azure.com/TARAFramework/bdb668a0-32f7-4c0c-b6dd-cc579da31540/_boards/board/t/d78354ad-41e0-4fe2-a8b4-83174f98d34f/Microsoft.RequirementCategory)
 # go-tara
 
 
