@@ -63,7 +63,7 @@ Please use it with due considerations.
 
 ## Other stuffs @ TARA
 
-1. [Tara Paper](https://github.com/TARAFramework/tara-paper/blob/master/paper.pdf)  - Working Draft by [@cattitude](https://github.com/cattitude). Presents the complete concepts, design approaches for a scalable RAFT Architecture that can handle more complex incoming client requests.
+1. [Tara Paper](https://github.com/TARAFramework/tara-paper/blob/master/paper.pdf)  - Working Draft by [@0zAND1z](https://github.com/0zAND1z). Presents the complete concepts, design approaches for a scalable RAFT Architecture that can handle more complex incoming client requests.
 2. [TaraScope](https://taraframework.github.io/tarascope/) - Visual representation of a behavior of triplets.
 3. [TARA.tla](https://github.com/TARAFramework/tara.tla) - The TLA+ Specification for RAFT along with tests.
 
